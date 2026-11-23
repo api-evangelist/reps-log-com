@@ -1,4 +1,4 @@
-# reps-log-com
+# REPSLog
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,115 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-reps-log-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://reps-log.com/
+REPSLog provides a real‑estate professional status (REPS) and short‑term rental (STR) time‑tracking platform. It helps real‑estate agents and investors log material‑participation hours, claim tax‑saving status, and integrate with AI assistants via a REST API and MCP connector. The service includes dashboards, calculators, and automated reporting to simplify compliance and maximize deductions.
+
+**Areas:** Company · RealEstate · TaxCompliance · TimeTracking · API
+
+## REPSLog on APIs.io
+
+Everything profiled for REPSLog is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/reps-log-com/](https://apis.io/providers/reps-log-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [REPSLog Breakdown API](https://apis.io/apis/reps-log-com/reps-log-com-breakdown-api/) — The Breakdown API from REPSLog — 1 operation(s) for breakdown.
+- [REPSLog Categories API](https://apis.io/apis/reps-log-com/reps-log-com-categories-api/) — The Categories API from REPSLog — 1 operation(s) for categories.
+- [REPSLog Dashboard API](https://apis.io/apis/reps-log-com/reps-log-com-dashboard-api/) — The Dashboard API from REPSLog — 1 operation(s) for dashboard.
+- [REPSLog Goal Progress API](https://apis.io/apis/reps-log-com/reps-log-com-goal-progress-api/) — The Goal Progress API from REPSLog — 1 operation(s) for goal progress.
+- [REPSLog Hours Summary API](https://apis.io/apis/reps-log-com/reps-log-com-hours-summary-api/) — The Hours Summary API from REPSLog — 1 operation(s) for hours summary.
+- [REPSLog Me API](https://apis.io/apis/reps-log-com/reps-log-com-me-api/) — The Me API from REPSLog — 1 operation(s) for me.
+- [REPSLog Participants API](https://apis.io/apis/reps-log-com/reps-log-com-participants-api/) — The Participants API from REPSLog — 1 operation(s) for participants.
+- [REPSLog Properties API](https://apis.io/apis/reps-log-com/reps-log-com-properties-api/) — The Properties API from REPSLog — 1 operation(s) for properties.
+- [REPSLog Stats API](https://apis.io/apis/reps-log-com/reps-log-com-stats-api/) — The Stats API from REPSLog — 1 operation(s) for stats.
+- [REPSLog Time Logs API](https://apis.io/apis/reps-log-com/reps-log-com-time-logs-api/) — The Time Logs API from REPSLog — 3 operation(s) for time logs.
+- [REPSLog User Settings API](https://apis.io/apis/reps-log-com/reps-log-com-user-settings-api/) — The User Settings API from REPSLog — 1 operation(s) for user settings.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [REPSLog Agentic Access](https://apis.io/agentic-access/reps-log-com/reps-log-com-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [REPSLog API Rules](https://apis.io/rules/reps-log-com/reps-log-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [REPSLog Authentication](https://apis.io/security/reps-log-com/reps-log-com-authentication/)
+- [REPSLog Domain Security](https://apis.io/security/reps-log-com/reps-log-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://reps-log.com/)
+- [Documentation](https://api.reps-log.com/v1/docs)
+- [Getting started](https://support.reps-log.com/hc/en-us/articles/52428040796435-Developer-quickstart-API-reference)
+- [API reference](https://api.reps-log.com/v1/openapi.json)
+- [Blog](https://blog.reps-log.com)
+- [Terms of service](https://reads.reps-log.com/terms-of-use.html)
+- [Privacy policy](https://reads.reps-log.com/privacy-policy.html)
+
+## API Evangelist rating
+
+**Kin Score 48.1** — developing · rubric 0.27.0 · scored 2026-11-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 45.3 |
+| Contract governance | 65.5 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 34.2 |
+
+**Agent readiness 44.6** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/reps-log-com/](https://apis.io/providers/reps-log-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for REPSLog: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/reps-log-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
